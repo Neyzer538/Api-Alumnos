@@ -9,7 +9,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # 🔹 Seguridad
-SECRET_KEY = os.environ.get("SECRET_KEY", "insecure-key")
+SECRET_KEY = os.environ.get("SECRET_KEY", "p!z@3h^7w1l$8&c%9d#0j*o(2q)r-t+u=v")
 DEBUG = os.environ.get("DEBUG", "False") == "True"
 ALLOWED_HOSTS = ["*"]  # o ["api-alumnos.onrender.com"]
 
